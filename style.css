@@ -12,6 +12,10 @@ a {
   margin-left: -2px;
 }
 
+.container {
+  background-color: #eeeeee;
+}
+
 .contact {
   color: white;
   background-color: #1e90ff;
@@ -137,8 +141,16 @@ a {
     padding: 5px;
   }
 
+  .fa-3x {
+    font-size: 2em;
+  }
+
   .resume__section-header {
     text-align: center;
+  }
+
+  .resume__section-languages-tech > p {
+    font-size: 10px;
   }
 }
 
