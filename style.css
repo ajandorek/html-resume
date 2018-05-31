@@ -1,0 +1,221 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: -2px;
+}
+
+.contact {
+  color: white;
+  background-color: #1e90ff;
+  height: 100%;
+}
+
+.contact__education {
+  color: white;
+  margin: 0 auto;
+  width: 190px;
+}
+
+.contact__icon {
+  margin-right: 5px;
+}
+
+.contact__image {
+  border-radius: 100%;
+  display: block;
+  height: 150px;
+  margin: auto;
+  padding: 20px;
+}
+
+.contact__info {
+  background-color: #51c3ff;
+  height: 100%;
+}
+
+.contact__name {
+  text-align: center;
+}
+
+.contact__school-degree {
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.contact__school-info {
+  color: #e4e4e4;
+  font-size: 12px;
+  line-height: 5px;
+  padding-bottom: 20px;
+}
+
+.contact__social {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 40px 0px;
+  width: 190px;
+}
+
+.contact__title {
+  color: #bdbcbc;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.resume {
+  background-color: #ffffff;
+  box-shadow: -2px -2px 10px #a5a5a5;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  width: 90%;
+}
+
+.resume__content {
+  padding: 7%;
+}
+
+.resume__icon {
+  margin-right: 10px;
+}
+
+.resume__section {
+  margin-bottom: 20px;
+}
+
+.resume__section > .resume__section-header {
+  color: #1e90ff;
+}
+
+.resume__section-company {
+  float: left;
+}
+
+.resume__section-content {
+  clear: both;
+}
+
+.resume__section-job {
+  margin-bottom: 40px;
+}
+
+.resume__section-languages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume__section-languages-tech {
+  color: #51c3ff;
+  text-align: center;
+}
+
+.resume__section-year {
+  float: right;
+}
+
+@media (max-width: 768px) {
+  .columns {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contact__info {
+    display: flex;
+  }
+
+  .contact__social {
+    font-size: 10px;
+    line-height: 24px;
+    padding: 5px;
+  }
+
+  .resume__section-header {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  .columns {
+    flex-direction: column-reverse;
+  }
+
+  .is-three-quarters {
+    margin: auto;
+  }
+  .contact > .contact__name {
+    font-size: 24px;
+  }
+
+  .contact > .contact__title {
+    font-size: 14px;
+  }
+
+  .contact__image {
+    height: 150px;
+  }
+
+  .contact__info {
+    display: flex;
+  }
+
+  .contact__social {
+    font-size: 11px;
+    padding: 5px;
+  }
+
+  .resume__section-header {
+    text-align: center;
+  }
+}
+
+@media (min-width: 920px) and (max-width: 1620px) {
+  .contact > .contact__name {
+    font-size: 24px;
+  }
+
+  .contact > .contact__title {
+    font-size: 14px;
+  }
+
+  .contact__info > .contact__social {
+    font-size: 10px;
+    margin: 0 auto;
+    width: 160px;
+  }
+
+  .contact__info > .contact__education {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 160px;
+  }
+}
+
+@media (min-width: 1620px) {
+  .contact > .contact__name {
+    font-size: 48px;
+  }
+
+  .contact > .contact__title {
+    font-size: 28px;
+  }
+
+  .contact__info > .contact__social {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 235px;
+  }
+
+  .contact__info > .contact__education {
+    font-size: 16px;
+    margin: 0 auto;
+    width: 235px;
+  }
+}
