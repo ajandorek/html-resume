@@ -12,10 +12,6 @@ a {
   margin-left: -2px;
 }
 
-.container {
-  background-color: #eeeeee;
-}
-
 .contact {
   color: white;
   background-color: #1e90ff;
@@ -126,9 +122,22 @@ a {
 }
 
 @media (max-width: 768px) {
+  .hero {
+    display: inline;
+  }
+
   .columns {
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .contact__education {
+    text-align: right;
+    padding-right: 5px;
+  }
+
+  .contact__school-degree {
+    font-size: 10px;
   }
 
   .contact__info {
@@ -136,21 +145,49 @@ a {
   }
 
   .contact__social {
-    font-size: 10px;
+    font-size: 8px;
     line-height: 24px;
-    padding: 5px;
+    padding: 0 0 0 5px;
   }
 
-  .fa-3x {
-    font-size: 1.5em;
+  .resume__section {
+    text-align: center;
+  }
+  .resume__section > .resume__section-header {
+    text-align: center;
+    font-size: 24px;
   }
 
-  .resume__section-header {
+  /* .resume__content:nth-child(2) > .resume__section > .resume__section-header {
+    font-size: 14px;
+  } */
+
+  .resume__section-job {
+    margin-bottom: 0;
+  }
+
+  .resume__section-job > .resume__section-job-title {
+    font-size: 16px;
     text-align: center;
   }
 
-  .resume__section-languages-tech > p {
-    font-size: 10px;
+  .resume__section-languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .resume__section-languages-tech {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .resume__section-company,
+  .resume__section-year {
+    font-size: 12px;
+    padding-bottom: 5px;
   }
 }
 
