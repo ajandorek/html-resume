@@ -223,6 +223,19 @@ a {
   .resume__section-header {
     text-align: center;
   }
+
+  .resume__section-languages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .resume__section-languages-tech {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 920px) and (max-width: 1620px) {
